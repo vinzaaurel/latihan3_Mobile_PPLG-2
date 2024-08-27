@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:latihan2_vinza/page1.dart';
+import 'package:latihan2_vinza/page2.dart';
 
 void main() {
   runApp(const MyApp());
