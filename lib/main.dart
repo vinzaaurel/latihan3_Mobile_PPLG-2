@@ -31,7 +31,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      routes: {
+        '/': (context) => Page1 (),
+        '/page2': (context) => Page2 ()
+      },
+      initialRoute: '/',
     );
   }
 }
